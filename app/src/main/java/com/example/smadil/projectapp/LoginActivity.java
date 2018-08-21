@@ -49,8 +49,10 @@ public class LoginActivity extends AppCompatActivity {
             pd.setMessage("Connecting...");
             pd.show();
             pd.setCanceledOnTouchOutside(false);
-
-            String url = "http://elmentrix.000webhostapp.com/project/login.php";
+            
+            // Place your login.php file url here
+            String url = "http://php/login.php";
+            
             StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override
