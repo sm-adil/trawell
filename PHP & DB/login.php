@@ -17,7 +17,7 @@
     		exit;
     	}			
     	else {	
-    		echo "Invalid credential";
+    		echo "Invalid credentials!";
     		exit;
     	}
     }
