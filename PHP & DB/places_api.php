@@ -17,7 +17,7 @@
         $temp['description'] = $description;
         $temp['rating'] = $rating;
         $temp['image'] = $image;
-
+        
         array_push($place,$temp);
     }
 
