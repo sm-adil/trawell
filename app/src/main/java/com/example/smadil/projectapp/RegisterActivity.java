@@ -54,7 +54,9 @@ public class RegisterActivity extends AppCompatActivity {
             pd.show();
             pd.setCanceledOnTouchOutside(false);
 
-            String url = "http://elmentrix.000webhostapp.com/project/register.php";
+            // Place your register.php file url here
+            String url = "http://php/register.php";
+            
             StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override
