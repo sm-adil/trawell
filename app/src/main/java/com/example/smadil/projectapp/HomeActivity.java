@@ -32,8 +32,9 @@ public class HomeActivity extends AppCompatActivity implements PlacesAdapter.OnI
     public static final String extra_description = "placeDescription";
     public static final String extra_rating = "placeRating";
 
-    private static final String places_url = "https://elmentrix.000webhostapp.com/project/places_api.php";
-
+    // Place your places_api.php file url here
+    private static final String places_url = "http://php/places_api.php";
+    
     RecyclerView recyclerView;
     PlacesAdapter placesAdapter;
 
