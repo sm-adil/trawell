@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smadil.projectapp.ErrorActivity"
+    android:background="@color/bgColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/error"
+        android:id="@+id/errorLogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="12dp"
+        android:textSize="25sp"
+        android:id="@+id/errorText"
+        android:textColor="#000"
+        android:layout_below="@+id/errorLogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorText"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="@string/errortext"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trawell</string>
+    <string name="main">FIND.PLAN.TRIP</string>
+
+    <string name="hintName">Name</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPass">Password</string>
+    <string name="btLogin">LOG IN</string>
+    <string name="btSignUp">SIGN UP</string>
+    <string name="skip"><u><b>Skip for now</b></u></string>
+    <string name="about">About place</string>
+    <string name="desc">Description</string>
+    <string name="heading">Heading</string>
+    <string name="address">Address</string>
+    <string name="address_uri">Find on Maps</string>
+    <string name="rating">0.0</string>
+    <string name="info">Info:</string>
+    <string name="or">OR</string>
+    <string name="search">Search for places…</string>
+    <string name="reviews">Reviews &amp; Ratings</string>
+    <string name="error"><b>No Internet Connection!!</b></string>
+    <string name="errortext">Make sure you are connected to internet!</string>
+</resources>
