@@ -25,7 +25,7 @@
                 echo "Successfully Signed In";
             }
             else {
-                echo "Error Sign in";
+                echo "Error while signing up!";
             }
             exit;
         } 
